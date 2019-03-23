@@ -8,7 +8,9 @@ body {
   padding-top: 10px;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 15px;
 }
@@ -20,11 +22,12 @@ header {
   position: fixed;
   background-color: #000;
   top: 0;
+  align-items: center;
 }
 
 .container {
   display: flex;
-  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -58,15 +61,33 @@ nav span a {
 }
 
 #monthly-tea {
-  display: flex;
-  flex-wrap: wrap;
   width: 1000px;
+  margin: auto;
+  height: 700px;
+  padding: 100px;
 }
 
-#monthly-tea img {
+.monthly-content {
+  padding: 5px;
+}
+
+.monthly-content img {
   width: 300px;
   height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.monthly-content span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #locations {
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  padding-top: 75px;
 }
