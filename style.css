@@ -1,10 +1,29 @@
-header {
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
 }
 
-#our-mission {
+header {
+  display: flex;
+}
+
+nav span {
+  display: inline-block;
+}
+
+#mission {
 }
 
 #monthly-tea {
+}
+
+#monthly-tea img {
+  width: 300px;
+  height: 200px;
 }
 
 #locations {
