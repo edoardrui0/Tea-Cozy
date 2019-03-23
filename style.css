@@ -64,7 +64,7 @@ nav span a {
   width: 1000px;
   margin: auto;
   height: 700px;
-  padding: 100px;
+  padding-top: 100px;
 }
 
 .monthly-content {
@@ -90,4 +90,25 @@ nav span a {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
   padding-top: 75px;
+  margin: auto;
+}
+
+.locations-content {
+  width: 300px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  margin-top: 15px;
+  opacity: 1;
+}
+
+.tea-cozy {
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
 }
