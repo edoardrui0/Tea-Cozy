@@ -5,20 +5,62 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  padding-top: 10px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 15px;
 }
 
 header {
-  display: flex;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  background-color: #000;
+  top: 0;
 }
 
-nav span {
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
   display: inline-block;
+  flex-grow: 1;
+  text-align: right;
+}
+
+nav span a {
+  color: white;
+  margin: 15px 10px;
 }
 
 #mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission .mission-content {
+  width: 100%;
+  background-color: #000;
+  margin: auto;
 }
 
 #monthly-tea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
 }
 
 #monthly-tea img {
